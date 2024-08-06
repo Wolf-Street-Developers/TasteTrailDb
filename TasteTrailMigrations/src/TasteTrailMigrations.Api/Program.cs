@@ -11,7 +11,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<TasteTrailDbContext>(
     (optionsBuilder) => optionsBuilder.UseNpgsql(
         connectionString: builder.Configuration.GetConnectionString("SqlConnection"),
-        b => b.MigrationsAssembly("Migrations")
+        b => b.MigrationsAssembly("TasteTrailMigrations.Api")
     )
 );
 

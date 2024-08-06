@@ -4,10 +4,10 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace Migrations.Migrations
+namespace TasteTrailMigrations.Api.Migrations
 {
     /// <inheritdoc />
-    public partial class InitCreate : Migration
+    public partial class TestCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

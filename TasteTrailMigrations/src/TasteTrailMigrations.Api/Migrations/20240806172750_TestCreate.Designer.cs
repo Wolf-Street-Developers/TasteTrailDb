@@ -9,11 +9,11 @@ using TasteTrailData.Infrastructure.Common.Data;
 
 #nullable disable
 
-namespace Migrations.Migrations
+namespace TasteTrailMigrations.Api.Migrations
 {
     [DbContext(typeof(TasteTrailDbContext))]
-    [Migration("20240806170430_InitCreate")]
-    partial class InitCreate
+    [Migration("20240806172750_TestCreate")]
+    partial class TestCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

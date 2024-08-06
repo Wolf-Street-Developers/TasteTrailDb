@@ -8,7 +8,7 @@ using TasteTrailData.Infrastructure.Common.Data;
 
 #nullable disable
 
-namespace Migrations.Migrations
+namespace TasteTrailMigrations.Api.Migrations
 {
     [DbContext(typeof(TasteTrailDbContext))]
     partial class TasteTrailDbContextModelSnapshot : ModelSnapshot
